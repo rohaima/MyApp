@@ -6,6 +6,7 @@
  import Testimonials from './Testimonials';
  import ContactUs from './Contactus';
  import Contact from './Contact';
+ import Something from './somthing'
  import {data} from './data'
 
 class App extends Component{
@@ -21,6 +22,7 @@ class App extends Component{
 <Route path="/blogs" render={()=>{
   return(<Blogs blog={this.state.data.blog}/>)
 }}/>
+<Something/>
 <Route path="/testimonials" component={Testimonials}/>
 <Route path="/contact" render={()=>{return(<Contact cons={this.state.data.contacts}/>)}}/>
 <ContactUs/>
