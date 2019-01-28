@@ -1,0 +1,41 @@
+.specialRoom{
+    height:auto;
+    background-image: url(./images/bg1.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    text-align: center;
+    padding:50px 0px 0;
+    .heading_text{
+    h4{
+        align-self:center;
+        font-size:70px;
+    }
+    p{
+        font-size: 50px;
+    }
+    button{
+        
+        background:$main-color;
+        height:60px;
+        width:200px;
+        border:2px solid $second-color;
+        &:hover{
+            border:2px solid $second-color;
+            background: $second-color;
+            color:$main-color;
+
+        }
+    }
+}
+    
+.RoomOffer{
+    width:100%;
+    height:auto;
+    background: $second-color;
+    margin-top:60px;
+    text-align: start;
+    @include section();
+
+}
+
+}

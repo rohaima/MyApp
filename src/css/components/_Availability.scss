@@ -1,0 +1,50 @@
+.availability{
+    box-shadow:5px 5px 15px 5px $second-color;
+    height:auto;
+    width:80%;
+    margin: 50px auto;
+    border:1px solid $second-color;
+    ul{ 
+        list-style: none;
+        li{
+            height:200px;
+            border-left:1px solid $second-color;
+            width:262px;
+            text-align: center;
+            padding:40px 0;
+            color:black !important;
+            float: left;
+            p{
+                color:$main-color;
+                font-size: 20px;
+               
+            }
+            
+            input{
+                width:200px;
+                height:50px;
+                
+                color:$third-color;
+                font-size:20px;
+                padding:10px;
+                background:transparent;
+            }
+        }
+        .check-availability{
+            background:black;
+            font-size: 20px;
+            height:100%;
+            p{
+                color:$second-color;
+                padding:37px 0;
+            }
+            &:hover{
+                color:$main-color;
+            }
+        }
+    }
+}
+@media (max-width:780px){
+
+
+}

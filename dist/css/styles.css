@@ -1,0 +1,99 @@
+/* #app {
+  color: orange;
+  background-color: aqua;
+} */
+/* *{
+box-sizing: border-box;
+}
+.NavBar{
+  position: relative;;
+  height:100px;
+  width:100%;
+  background-color:black;
+}
+/*# sourceMappingURL=styles.css.map*/
+/* .NavBar ul{
+position: absolute;
+list-style:none;
+left:900px;
+}
+.NavBar ul li{
+  float: left;
+  padding:20px;
+  color:white;
+}
+.header{
+  position: relative;
+  height:500px;
+  width:100%;
+  position: relative;
+  background-image: url("../images/slider1.jpg");
+  background-size: cover;
+}
+
+
+
+h1{
+  color:white;
+  font-size:40px;
+  top:100px;
+  left:500px;
+  font-family:'open sans';
+  position:absolute;
+}
+
+.service{
+  height:400px;
+  width:100%;
+  position: relative;
+  background-color:pink;
+}
+
+.about{
+  position: relative;
+height:100vh;
+width:100%;
+}
+.about div{
+height:60%;
+width:27%;
+position:relative;
+top:30%;
+border-radius:5%;
+margin-left:4.5%;
+border:1px solid black;
+display: inline-block;
+}
+.about h1{
+text-align: center;
+position: absolute;
+top:0px;
+color:black;
+left:42%;
+
+}
+.about div h1{
+
+  position: absolute;
+  top:0px;
+  color:black;
+  left:30%;
+}
+.about div p{
+
+position:absolute;
+top:30%;
+left:10%;
+
+}
+  
+
+
+
+.footer{
+  position: relative;
+  height:100px;
+  width:100%;
+  position: relative;
+  background-color:black; 
+}  */

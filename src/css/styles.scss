@@ -1,0 +1,29 @@
+@import './variables/allvariables';
+@import './mixins/imgandText';
+@import './mixins/buttons';
+@import './mixins/heading';
+@import './mixins/circles';
+@import './components/BestRooms';
+@import './components/services';
+@import './components/nav';
+@import './components/header';
+@import './components/Availability';
+@import './components/AboutMain';
+@import './components/SpecialRoom';
+@import './components/contactus';
+@import './components/blogs';
+@import './components/Testimonials';
+@import './components/contact';
+*{
+    overflow-x:hidden; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:$second-color;
+    font:$theme-lang;
+}
+.section{
+    height:100vh;
+}
+
+

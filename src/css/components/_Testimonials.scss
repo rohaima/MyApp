@@ -1,0 +1,98 @@
+.testimonials{
+    height: auto;
+    background-image:url(./images/room1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    .heading{
+        text-align:center;
+        height:200px;
+        text-align: center;
+        padding:50px 0;
+        margin-top:200px;
+        font-weight:bolder;
+        font-size:70px;
+    }
+    .comments{
+        color:black !important;
+        height:auto;
+        width:100%;
+        background:$second-color;
+        padding:60px;
+    .testimonials-title{
+        
+        
+        p{
+            text-align: center;
+            color:$third-color;
+            font-size:30px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+    }
+    .testimonials-group{
+        
+        .left-arrow,.right-arrow{
+            width:10%;
+            display: inline-block;
+            padding: 0px 40px;
+            bottom:100px;
+            position: relative;
+            text-align:center;
+            cursor: pointer;
+            i{
+                font-size: 45px;
+                color: $third-color;
+            }
+            &:hover{
+                i{
+                    transition: 0.5s;
+                    color:$main-color;
+                }
+            }
+        }
+        .testimonials-main{
+            display: inline-block;
+            position: relative;
+            width: 80%;
+            padding:20px 0 0;
+            background: #ddd;
+            .testimonials-item{
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                .image-circle{
+                    @include circle('img-circle');
+                }
+                .testimonials-text{
+                    padding:50px;
+                    color: $third-color !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .testimonials-circle{
+        width: 100%;
+        .circles-center{
+            margin: 0 auto;
+            width:75px;
+            .circle{
+                border-radius: 100%;
+                width:15px;
+                height:15px;
+                display: inline-block;
+                margin:0px 2px;
+                border: 3px solid $second-color;
+                background-color: $main-color;
+                cursor: pointer;
+                &:hover{
+                    background-color: $second-color;
+                    color: $main-color;
+                    transform: 0.5s;
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+}
+}

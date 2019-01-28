@@ -1,0 +1,40 @@
+.contact{
+    height:auto;
+    padding:50px;
+    
+    background:$third-color;
+    .container{
+        .text-center{
+            text-align: center;
+            .title{
+                margin-bottom:10px;
+                font-size: 20px;
+            }
+            .sub-title{
+                margin-bottom:10px;
+                font-size: 35px;
+            }
+        }
+        .row{
+            width:80%;
+            height:auto;
+            overflow-x:hidden;
+            margin:30px auto 0;
+            .rows{
+                width:300px;
+                display: inline-block;
+                position:relative;
+                height:300px;
+                padding:20px;
+                p{
+                line-height: 1.6em;
+                }
+            }
+        }
+
+
+    }
+    .get-contact{
+        text-align: center;
+    }
+}

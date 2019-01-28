@@ -1,0 +1,139 @@
+.nav{
+    overflow: hidden;
+    position:absolute;
+    width:100%;
+    height:auto;
+    z-index:100;
+    margin-bottom:1px solid black;
+    .header-bar{
+        height:55px;
+        background:$third-color;
+        width:100%;
+        ul{ font-size: $font-size;
+            list-style: none;
+            height:100%;
+            li{ padding-left:60px;
+                padding-top:22px;
+                height:100%;
+                border:1px solid #eee;
+                float:left;
+                width:20%;
+                z-index:100;
+                p{display:inline;}
+                &:hover{
+                    color:$main-color;
+                }
+        
+            }
+            .middle-li{
+                width:60%;
+            }
+        }
+    }
+    .menu-bar{
+        overflow: hidden;
+        height:auto;
+        display:inline-block;
+        width:100%;
+       z-index:100;
+        padding:0 60px;
+        .logo{
+            height:50px;
+            margin-top:15px;
+            width:200px;
+            overflow:hidden;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        ul{ margin-left:50%;
+            margin-top:-50px;
+            list-style: none;
+            width:800px;
+            height:100px;
+            font-weight:bold;
+            font-size: 18px;
+            text-align: center;
+            padding:25px;
+            li{
+                float:left;
+                color:black;
+                width:13%;
+                .link{
+                    color:$main-color !important;
+                    text-decoration: none;
+                    &:hover{
+                        color:$second-color;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:780px){.nav{
+    overflow: hidden;
+    position:absolute;
+    width:100%;
+    height:auto;
+    z-index:100;
+    margin-bottom:1px solid black;
+    .header-bar{
+        height:55px;
+        background:$third-color;
+        width:100%;
+        ul{ font-size: $font-size;
+            list-style: none;
+            height:100%;
+            li{ padding-left:60px;
+                padding-top:22px;
+                height:100%;
+                border:1px solid #eee;
+                float:left;
+                width:20%;
+            }
+            .middle-li{
+                width:60%;
+            }
+        }
+    }
+    .menu-bar{
+        overflow: hidden;
+        height:120px;
+        width:100%;
+       z-index:100;
+        padding:0 10px;
+        .logo{
+            height:40px;
+            margin-top:15px;
+            width:150px;
+            overflow:hidden;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        ul{ margin-left:1px;
+            margin-top:0px;
+            list-style: none;
+            width:100%;
+            height:100%;
+            font-weight:bold;
+            font-size: 15px;
+            text-align: center;
+            padding:5%;
+            li{
+                float:left;
+                color:black;
+                width:20%;
+                .link{
+                    color:$main-color !important;
+                    &:hover{
+                        color:$second-color;
+                    }
+                }
+            }
+        }
+    }
+}
+}

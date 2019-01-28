@@ -1,0 +1,76 @@
+.aboutMain{
+    width:100%;
+    padding:60px 8% 120px;
+    display:inline-block;
+    height:auto;
+    .image{
+        float:left;
+        width:530px;
+       height:410px;
+       overflow: hidden;
+        background: $main-color;
+        img{
+            height:100%;
+            width:100%;
+        }
+    }
+    .about_info{
+        width:550px;
+        height:410px;
+        overflow: hidden;
+        background: $second-color;
+        padding:60px;
+        float:left;
+        h1{ 
+            padding: 15px 0;
+            color:$third-color;
+            font-size: 45px;
+        }
+        p{
+            line-height: 1.6em;
+            font-size: 18px;
+        }
+        button{
+            @include buttons(normal);
+        }
+    }
+}
+@media(max-width:580px){
+    .aboutMain{
+        width:100%;
+        padding:60px 8% 120px;
+        display:inline-block;
+        height:auto;
+        .image{
+            float:left;
+            width:350px;
+           height:300px;
+           overflow: hidden;
+            background: $main-color;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        .about_info{
+            width:350px;
+            height:auto;
+            overflow: hidden;
+            background: $second-color;
+            padding:60px;
+            float:left;
+            h1{ 
+                padding: 15px 0;
+                color:$third-color;
+                font-size: 45px;
+            }
+            p{
+                line-height: 1.6em;
+                font-size: 18px;
+            }
+            button{
+                @include buttons(normal);
+            }
+        }
+    }
+}

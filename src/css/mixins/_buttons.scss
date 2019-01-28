@@ -1,0 +1,27 @@
+@mixin buttons($size:btn) {
+    @if($size=normal){
+        width:200px;
+        height:45px;
+        color: $second-color;
+        background:$third-color;
+        border:none;
+        font-weight:bolder;
+        &:hover{
+            background:$main-color;
+        }
+    }
+    @if($size=small){
+        width:150px;
+        height:35px;
+        color: $third-color;
+        background:$second-color;
+        border:none;
+        font-weight:bolder;
+        &:hover{
+            
+            background:$main-color;
+            
+        }
+    }
+    
+}
